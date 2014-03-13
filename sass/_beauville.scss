@@ -393,6 +393,7 @@ color:#fff;
 background:#AC1660;
 }
 
+
 /* children of selected page hover states */
 .sf-menu li.current_page_item li a:hover,.sf-menu li.current_page_item li:hover, li.current-menu-parent li:hover, li.current-menu-parent li a:hover  {
 color:#fff;
@@ -418,6 +419,11 @@ color:#fff;
 .menu .sf-menu a[href="#"]
 {
 cursor:text;
+}
+
+/* make top level cursor a pointer */
+.sf-menu > li:hover {
+cursor: default;
 }
 
 
