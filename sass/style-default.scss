@@ -1,0 +1,27 @@
+/*reset*/
+@import 'reset';
+
+/* Apply basic typography styles */
+@import 'typography';
+
+/* Basic 3 col */
+@import '3c-fixed';
+
+/* Apply basic image styles */
+@import 'images';
+
+/* Apply default theme styles and colors */
+
+/* It's better to actually copy over default.css into this file (or link to a copy in your child theme) if you're going to do anything outrageous */
+@import 'default';
+
+/* Prepare theme for plugins */
+@import 'plugins';
+
+/* Custom CSS theme for this theme */
+@import 'beauville';
+
+/* Droid font from Google */
+@import 'http://fonts.googleapis.com/css?family=Droid+Sans:400,700';
+
+

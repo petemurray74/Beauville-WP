@@ -1,0 +1,574 @@
+/* GENERAL DIV LAYOUT CHANGES */
+
+#main {
+    padding: 30px 0 22px;
+}
+
+/* bit more room for content on 3-col pages only */
+.page-template-default #content {
+    margin: 0 225px 0px 183px;
+	border-left: 2px solid #ddd;
+	padding: 0px 20px 0px 15px;
+}
+
+.page-template-default #primary{
+width:180px;
+}
+
+.page-template-default #primary ul.xoxo
+{
+padding: 0 20px 0px 0px;
+}
+
+/* custom menus in sidebars think they are 940px */
+#secondary ul.menu, #primary ul.menu
+{
+width:auto;
+}
+
+.page-template-info-page-php #content
+{
+width:580px;
+margin-left:13px;
+}
+
+
+/* HEADER BITS /*
+
+/* take the space above the main branding down a bit */
+#branding {
+	background:url(images/title.png) 3px 42px no-repeat; 
+	clear:both;
+	padding:20px 0px 20px 0px;
+}
+
+
+
+#blog-title,#blog-description{
+left:-999px;
+position:absolute;
+}
+
+#branding #header-img {
+height:103px;
+overflow:hidden;
+width:519px;
+margin-left:421px;
+}
+
+
+/* SLIDESHOW SETTINGS */
+
+#slideshow-wrapper #fullsize {
+    border: 1px solid #000000;
+    }
+	
+#slideshow-wrapper #information h3 {
+padding:0px 0px 7px 7px !important;
+}
+
+/* NEW WIDGET AREA ::HEADER ASIDE:: Called header menu in widgets */
+
+#header-aside-wrapper{
+    padding: 5px 0px 0px 0px;
+	height:28px;
+	background:url(images/3d-divider.png) bottom left repeat-x; 
+}
+
+#header-aside{
+margin: 0 auto;
+width:940px;
+font-family: Helvetica, Arial, sans-serif;
+font-size:12px;
+}
+
+#header-aside a{
+text-decoration:none;
+}
+
+#header-aside a:hover{
+text-decoration:underline;
+}
+
+#header-aside li {
+display: inline;
+padding:0px 4px 0px 3px;
+}
+
+#header-aside li:last-child {
+border-right:0px;
+}
+
+.header-menu-item ul {
+margin:0px;
+}
+	
+#header-aside .widget_nav_menu{
+width:400px;
+float:left;
+}
+
+/* styles for qtranslate*/
+
+.widget_qtranslate{
+float:right;
+position:relative;
+width:100px;
+text-align:right;
+}
+
+#header-aside .qtrans_flag {
+display:block;
+float:left;
+padding: 0px 0px 0px 0px;
+margin-left:10px;
+}
+
+ul.qtrans_language_chooser {
+padding:5px 0px 0px 0px; 
+float:right;
+width:56px;
+}
+
+#header-aside ul.qtrans_language_chooser li{
+border:0px;
+padding:0px;
+}
+  
+  
+/* TYPOGRAPHY in content area*/
+
+.entry-content {
+    font-size: 13px;
+	line-height:20px;
+	padding-top:10px;
+}
+
+.entry-title,.widgettitle,.entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6 {
+   font-family: Arial Black,Arial,sans-serif;
+   font-weight: bold;
+   padding: 10px 0 4px;
+}
+
+
+.entry-content h1 {
+    font-size: 22px;
+	line-height:26px;
+}
+
+.entry-content h2 {
+    font-size: 19px;
+	line-height:24px;
+}
+
+.entry-content h3 {
+    font-size: 16px;
+	font-style:normal;
+	line-height:22px;
+}
+
+.entry-content h4 {
+    font-size: 13px;
+	padding: 6px 0 3px;
+	text-transform:uppercase;
+	line-height:17px;
+}
+
+.entry-content h4 {
+    letter-spacing:0.05em;
+}
+
+.msie .entry-content h4 {
+    letter-spacing:0.03em;
+}
+
+.entry-content h5 {
+    font-size: 13px;
+	padding: 6px 0 3px;
+	line-height:17px;
+}
+
+.entry-content h6 {
+    font-size: 11px;
+	padding: 6px 0 3px;
+	text-transform:uppercase;
+	line-height:14px;
+}
+
+.entry-content p {
+line-height:20px;
+}
+
+.entry-content li{
+padding-bottom:4px;
+}
+
+.entry-content td,.entry-content td p{
+    font-size:12px;
+    line-height:16px;
+	}
+
+/* hack to remove extra padding after the last paragraph of each table cell - not IE */	
+.entry-content td p:last-child 
+{
+margin-bottom: 0px;
+}	
+	
+h2.catlist{
+font-size: 19px;
+font-style: normal;
+line-height: 24px;
+font-family: Arial Black,Arial,sans-serif;
+font-weight: bold;
+padding: 10px 0 4px;
+}
+
+h2.catlist a {
+text-decoration:none;
+}		
+	
+blockquote {
+    margin: 1em 3em;
+}
+
+p, ul, ol, dd, pre {
+    margin-bottom: 18px;
+}
+
+sup,sub
+{
+font-size:60%;
+}
+
+  
+  
+  
+  
+
+/* 
+Musiques du monde THEME
+red:D00745      
+blue:2C3C5E      
+yel:FAEE96
+grey:eee
+
+OLD
+dark-blue:212f55
+red:9c424b
+yellow1:fffaa1
+yellow2:cbc498
+yellow3:dfe29a
+
+Arts/musqiues
+green:2BBCA2
+blue:0E273D
+white?
+
+Literature
+red:D2135A      
+beige:CFC996      
+blue:17305C
+
+Cultures du monde
+green:7AD747       
+light green:E7FA12      
+blue:255266       
+beige:E2D549
+
+Theatre marionette
+green:0D9E81      
+blue:1E223A
+
+new pink  for Literature
+pink AC1660     
+beige:CFC996      
+blue:17305C
+
+*/
+
+
+
+
+
+
+body {
+background-color:#fff;
+}
+
+#header
+{
+margin: 0px auto 0px auto;
+background-color:#eee;
+}
+
+
+#main {
+background:#fff;
+}
+
+#footer {
+border-top: 3px solid #AC1660;
+background-color:#eee;
+}
+
+/*TYPOGRAPHY*/
+
+/*links */ 
+
+a:link {
+    color:#AC1660;
+}
+a:visited {
+    color:#AC1660;
+}
+a:active,
+a:hover {
+    color: #666;
+}
+
+/* content */
+
+.entry-content {
+color:#17305C;
+}
+
+/* all main headings */
+.entry-title,.entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6 {
+color:#AC1660;
+}
+
+.entry-content h4,.entry-content h6 {
+color:#17305C ;
+}
+
+h2.catlist{
+color: #AC1660;
+}
+
+
+/*HEADER ASDIDE COLORS */
+
+#header-aside,#header-aside a{
+color:#AC1660;
+}
+
+#header-aside li {
+border-right:1px dotted #AC1660;
+}
+
+#header-aside a:hover{
+color:#17305C;
+}
+
+/* fix to stop header selected item taking on stlye of main menu */
+#header-aside li.menu-item {
+background-color: transparent;
+color: #AC1660;
+}
+
+
+/* MENU */
+
+#access .menu {
+height:29px;
+background-color:#eee;
+}
+
+#access {
+border-bottom:0px;
+background-color:#eee;
+border-bottom: 3px solid #AC1660;
+height:31px;
+min-width:960px;
+}
+
+.sf-menu li
+{
+background-color:#eee;
+}
+
+.sf-menu a,.sf-menu a:visited
+{
+color:#17305C;
+}
+
+.sf-menu {
+font-family: Arial Black,Arial,sans-serif;
+}
+
+.sf-menu a,.sf-menu,.sf-menu ul{
+border:0px;
+}
+
+.sf-menu li {
+background:url(images/3d-divider-vert.png) top left repeat-y; 
+}
+
+/*no background URL for children*/
+.sf-menu li li{
+background:#eee; 
+}
+
+/* current page marker both for items with / without children */
+.sf-menu li.current_page_item a ,.sf-menu li.current_page_item, li.current-menu-parent, li.current-menu-parent a:visited{
+color:#fff;
+background:#AC1660;
+}
+
+/* dont make children of current page look selected */
+.sf-menu li.current_page_item li a ,.sf-menu li.current_page_item li, li.current-menu-parent li, li.current-menu-parent li a:visited {
+background:#eee;
+}
+
+/*general hover state */ 
+.sf-menu li:hover, .sf-menu a:hover  {
+color:#fff;
+background:#AC1660;
+}
+
+/* children of selected page hover states */
+.sf-menu li.current_page_item li a:hover,.sf-menu li.current_page_item li:hover, li.current-menu-parent li:hover, li.current-menu-parent li a:hover  {
+color:#fff;
+background:#AC1660;
+}
+
+/* parent item state when hovering over a sub-menu */
+.menu ul.sf-menu li.sfHover a, .menu ul.sf-menu li.sfHover li.sfHover a {
+color:#fff;
+}
+
+/*stop the above cascading to sub menus*/
+.menu ul.sf-menu li.sfHover li a, .menu ul.sf-menu li.sfHover li.sfHover li a  {
+color:#17305C;
+}
+
+/* fix the hover states which have been changed. Both for sub and sub-sub menus */
+.menu ul.sf-menu li.sfHover li a:hover ,.menu ul.sf-menu li.sfHover li.sfHover li a:hover {
+color:#fff;
+}
+
+/* ASIDES */
+
+.aside {
+font-family: Helvetica, Arial, sans-serif;
+}
+
+.aside h3, .widgettitle
+{
+font-family: Arial Black,Arial,sans-serif;
+font-style: normal;
+}
+
+.aside a:active, .aside a:hover,.aside .current_page_item a {
+color: #666;
+text-decoration:none;
+}
+
+#primary  {
+color:#17305C;
+padding:5px 0px 0px 2px;
+}
+
+#primary  .widgettitle{
+color:#17305C;
+}
+
+#primary   a {
+color:#17305C;
+}
+
+#secondary {
+font-family: 'Droid Sans', sans-serif;
+border: 0px ;
+background-color:#17305C;
+color:#fff ;
+padding-top:2px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+
+#secondary  a{
+color:#fff ;
+}
+
+#secondary .widgettitle{
+font-family: 'Droid Sans', sans-serif;
+color:#fff;
+}
+
+#secondary li.widgetcontainer {
+padding-top: 10px;
+}
+
+.page-template-info-page-php #secondary h4,.page-template-default #secondary h4{
+font-size:15px;
+font-weight:bold;
+padding-bottom:4px;
+}
+
+/* register now botton */
+
+
+/* on content pages it is #26 and #27 */
+
+#custom_post_widget-26 a,#custom_post_widget-27 a{
+padding:10px 15px;
+background-color:#AC1660;
+border-radius:3px;
+text-decoration:none;
+display:block;
+text-align: center;
+}
+
+#custom_post_widget-26 a:hover,#custom_post_widget-27 a:hover{
+background-color:#D2135A;
+}
+
+#custom_post_widget-26 p,#custom_post_widget-27 p{
+margin-bottom:0px;
+}
+
+/* facebook widget */
+
+#secondary iframe
+{
+background-color:#fff;
+}
+
+/* IMAGES */
+
+#secondary .wp-caption {
+border: 0px;
+padding: 0px;
+}
+
+#secondary img.size-thumbnail,#secondary img.size-medium
+{
+border:4px solid #fff;
+}
+
+#secondary .wp-caption p.wp-caption-text {
+color:#eee;
+padding: 2px 0px 0px 0px ;
+}
+
+.wp-caption p.wp-caption-text {
+padding: 5px 5px;
+line-height:15px;
+}
+
+/* FOOTER ASIDE */
+
+div#iconbox
+{
+padding:3px;
+}
+
+#footer_icons .icon
+{
+padding-right:6px;
+vertical-align:middle;
+}
+
+
