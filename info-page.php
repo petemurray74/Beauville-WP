@@ -31,8 +31,9 @@
 	            ?>
 	            
 				<div id="post-<?php the_ID();
+				/* thematic_post_class() was throwing an error, so I removed the ! from if ((!THEMATIC_ */
 					echo '" ';
-					if (!(THEMATIC_COMPATIBLE_POST_CLASS)) {
+					if ((THEMATIC_COMPATIBLE_POST_CLASS)) {
 						post_class();
 						echo '>';
 					} else {
