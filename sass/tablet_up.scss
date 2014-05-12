@@ -3,14 +3,22 @@ LAYOUT: One-Column (Right) Fixed
 DESCRIPTION: Two-column 950px fixed layout with one sidebar right of content
 */
 
-body {
-    min-width:960px;
+
+*,*:before,*:after
+{
+-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box
 }
+
+body 
+{
+max-width:960px;
+}
+
 #header {
     position:relative;
 }
 #branding {
-    width:940px;
+    width:100%;
     margin:0 auto;
 }
 #access {
@@ -18,27 +26,26 @@ body {
     overflow:hidden;
 }
 .menu {
-    width:940px;
+    width:100%;
     margin:0 auto;
 }
 #main {
-    width:960px;
+    width:100%;
     margin:0 auto;
     overflow:hidden;
     position:relative;
 }
 #container {
-    width:620px;
+    width:59%;
     float:left;
 }
 #content {
     margin:0 13px 0 10px;
-    width:580px;
     overflow:hidden;
 }
 
 .main-aside {
-    width:300px;
+    width:40%;
     float:right;
     position:relative;
     right:10px;
@@ -64,7 +71,7 @@ body {
 }
 #siteinfo {
     clear:both;
-    width:940px;
+    width:100%;
     margin:0 auto;
 }
 
@@ -85,18 +92,14 @@ width:auto;
 
 body.home div#content
 {
-width:540px;
-margin: 0px 0px 0px 10px;
+wwidth:540px;
+wmargin: 0px 0px 0px 10px;
 }
 
-body.home div#container
-{
-width:580px;
-}
 
 body.home div.main-aside
 {
-width:360px;
+wwidth:360px;
 }
 
 /*header */

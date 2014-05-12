@@ -32,4 +32,5 @@ add_import_path "../../bower_components/foundation/scss"
 # trying to get normalize in
 add_import_path "../../bower_components/foundation"
 
-output_style = :compressed # by Compass.app 
+
+output_style = :expanded # by Compass.app 

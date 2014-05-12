@@ -4,9 +4,6 @@
 /* Apply basic typography styles */
 @import 'typography';
 
-/* Generic thematic 2 columns */
-@import '2c-r-fixed';
-
 /* Apply basic image styles */
 @import 'images';
 
@@ -20,9 +17,53 @@
 /* Custom CSS theme for this theme */
 @import 'beauville';
 
-/* Driod font from Google */
+/* Droid font from Google */
 @import 'http://fonts.googleapis.com/css?family=Droid+Sans:400,700';
 
 /* EXTRAs */
 
 @import 'front_page_inc';
+
+/*MEDIA QUERIES */
+
+/*
+Large Display: 1200px
+Default: 980px
+Tablet: 768px
+Mobile: 480px
+make ems version of these
+13.333333 em>px
+*/
+
+/*LARGE SCREEN*/
+/*
+@media only screen and (min-width : 980px) {
+body {border-top:10px solid red;}
+}
+*/
+
+/*DEFAULT*/
+
+@media only screen and (min-width : 981px) {
+body {border-top:10px solid yellow;}
+/* Generic thematic 2 columns */
+@import '2c-r-fixed';
+}
+
+
+/*TABLET and UP*/
+@media only screen and (max-width : 980px) {
+body {border-top:10px solid pink;}
+/*other wide styles*/
+@import 'tablet_up';
+
+}
+
+/*MOBILE*/
+@media only screen and (max-width : 580px) {
+body {border-top:10px solid green;}
+@import 'mobile';
+
+}
+
+

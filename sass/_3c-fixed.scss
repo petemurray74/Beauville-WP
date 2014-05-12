@@ -92,3 +92,19 @@ body {
 .page-template-template-page-fullwidth-php #comments {
     width:540px;
 }
+
+/* bit more room for content on 3-col pages only */
+.page-template-default #content {
+    margin: 0 225px 0px 183px;
+	border-left: 2px solid #ddd;
+	padding: 0px 20px 0px 15px;
+}
+
+.page-template-default #primary{
+width:180px;
+}
+
+.page-template-default #primary ul.xoxo
+{
+padding: 0 20px 0px 0px;
+}

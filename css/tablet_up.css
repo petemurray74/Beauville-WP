@@ -1,0 +1,155 @@
+/*
+LAYOUT: One-Column (Right) Fixed
+DESCRIPTION: Two-column 950px fixed layout with one sidebar right of content
+*/
+/* line 8, ../sass/tablet_up.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 13, ../sass/tablet_up.scss */
+body {
+  max-width: 960px;
+}
+
+/* line 17, ../sass/tablet_up.scss */
+#header {
+  position: relative;
+}
+
+/* line 20, ../sass/tablet_up.scss */
+#branding {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 24, ../sass/tablet_up.scss */
+#access {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 28, ../sass/tablet_up.scss */
+.menu {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 32, ../sass/tablet_up.scss */
+#main {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 38, ../sass/tablet_up.scss */
+#container {
+  width: 59%;
+  float: left;
+}
+
+/* line 42, ../sass/tablet_up.scss */
+#content {
+  margin: 0 13px 0 10px;
+  overflow: hidden;
+}
+
+/* line 47, ../sass/tablet_up.scss */
+.main-aside {
+  width: 40%;
+  float: right;
+  position: relative;
+  right: 10px;
+}
+
+/* line 53, ../sass/tablet_up.scss */
+#secondary {
+  clear: right;
+}
+
+/* line 56, ../sass/tablet_up.scss */
+#footer {
+  clear: both;
+}
+
+/* line 59, ../sass/tablet_up.scss */
+#subsidiary {
+  width: 940px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* line 64, ../sass/tablet_up.scss */
+#subsidiary .aside {
+  width: 300px;
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+/* line 69, ../sass/tablet_up.scss */
+#subsidiary #third {
+  margin: 0;
+}
+
+/* line 72, ../sass/tablet_up.scss */
+#siteinfo {
+  clear: both;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*-------------------------------------*/
+/* GENERAL DIV LAYOUT CHANGES */
+/* line 82, ../sass/tablet_up.scss */
+#main {
+  padding: 30px 0 22px;
+}
+
+/* custom menus in sidebars think they are 940px */
+/* line 89, ../sass/tablet_up.scss */
+#secondary ul.menu, #primary ul.menu {
+  width: auto;
+}
+
+/* line 94, ../sass/tablet_up.scss */
+body.home div#content {
+  wwidth: 540px;
+  wmargin: 0px 0px 0px 10px;
+}
+
+/* line 101, ../sass/tablet_up.scss */
+body.home div.main-aside {
+  wwidth: 360px;
+}
+
+/*header */
+/* line 107, ../sass/tablet_up.scss */
+#header-aside {
+  margin: 0 auto;
+  width: 940px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+/* line 114, ../sass/tablet_up.scss */
+#branding #header-img {
+  height: 103px;
+  overflow: hidden;
+  width: 519px;
+  margin-left: 421px;
+}
+
+/* line 121, ../sass/tablet_up.scss */
+#header-aside .widget_nav_menu {
+  width: 400px;
+  float: left;
+}
+
+/*MENU */
+/* line 128, ../sass/tablet_up.scss */
+#access {
+  min-width: 960px;
+}

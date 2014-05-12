@@ -1,37 +1,13 @@
-/* GENERAL DIV LAYOUT CHANGES */
+/*RESPONSIVE STUFF*/
 
-#main {
-    padding: 30px 0 22px;
+img {
+display: block;
+max-width: 100%;
+height: auto;
 }
 
-/* bit more room for content on 3-col pages only */
-.page-template-default #content {
-    margin: 0 225px 0px 183px;
-	border-left: 2px solid #ddd;
-	padding: 0px 20px 0px 15px;
-}
 
-.page-template-default #primary{
-width:180px;
-}
-
-.page-template-default #primary ul.xoxo
-{
-padding: 0 20px 0px 0px;
-}
-
-/* custom menus in sidebars think they are 940px */
-#secondary ul.menu, #primary ul.menu
-{
-width:auto;
-}
-
-.page-template-info-page-php #content
-{
-width:580px;
-margin-left:13px;
-}
-
+/*BRANDING AND LAYOUT*/
 
 /* HEADER BITS /*
 
@@ -42,21 +18,10 @@ margin-left:13px;
 	padding:20px 0px 20px 0px;
 }
 
-
-
 #blog-title,#blog-description{
 left:-999px;
 position:absolute;
 }
-
-#branding #header-img {
-height:103px;
-overflow:hidden;
-width:519px;
-margin-left:421px;
-}
-
-
 
 /* NEW WIDGET AREA ::HEADER ASIDE:: Called header menu in widgets */
 
@@ -64,13 +29,6 @@ margin-left:421px;
     padding: 5px 0px 0px 0px;
 	height:30px;
 	background:url(../images/3d-divider.png) bottom left repeat-x; 
-}
-
-#header-aside{
-margin: 0 auto;
-width:940px;
-font-family: Helvetica, Arial, sans-serif;
-font-size:12px;
 }
 
 #header-aside a{
@@ -94,16 +52,15 @@ border-right:0px;
 margin:0px;
 }
 	
-#header-aside .widget_nav_menu{
-width:400px;
-float:left;
-}
-
 /* styles for translation area */
 
 #lang_sel{
 float:right;
 position:relative;
+}
+
+img.iclflag {
+display:inline;
 }
 
   
@@ -254,10 +211,6 @@ blue:17305C
 */
 
 
-
-
-
-
 body {
 background-color:#fff;
 }
@@ -346,7 +299,6 @@ border-bottom:0px;
 background-color:#eee;
 border-bottom: 3px solid #AC1660;
 height:31px;
-min-width:960px;
 }
 
 .sf-menu li
